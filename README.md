@@ -101,3 +101,44 @@ En conclusión, este notebook constituye la base exploratoria del proyecto,
 proporcionando una visión detallada del dataset y preparando el terreno para las
 siguientes etapas de limpieza, preprocesamiento y modelado predictivo.
 
+
+-----ENTREGA 2----------
+
+RESUMEN TÉCNICO DEL NOTEBOOK
+
+El notebook “02 - preprocesamiento.ipynb” corresponde a la segunda fase del proyecto y tiene como objetivo limpiar, transformar y preparar los datos del conjunto de entrenamiento (train.csv) para su uso en modelos de aprendizaje automático.
+
+Abrir el notebook 02 - preprocesamiento.ipynb Se recomienda abrirlo en Google Colab.
+
+Carga de librerías y datasets
+
+Librerías: pandas, numpy, matplotlib, seaborn, scikit-learn, itertools, json, os
+Cargar los datos de entrenamiento
+
+El notebook trabaja únicamente con los datos de entrenamiento (train.csv), ya que el objetivo es definir las transformaciones que luego se aplicarán a test.csv
+Exploración de datos
+
+Se realiza un análisis profundo de los datos para identificar tipos, categorías y valores faltantes
+Limpieza de datos y tratamiento de valores faltantes
+Ejecutar la celda que muestra el resumen general de nulos, tipos de dato y porcentaje de valores faltantes por columna.
+Analizar qué columnas presentan información incompleta y de que tipo son
+Imputación de valores faltantes, ejecutando la función imputar_moda() -->(categoría más frecuente).
+Se verifica que despues del proceso no queden valores faltantes.
+Se mapea por medio de la función mapear(), las columnas ordinales y binarias
+Correlación de variables
+Se genera la matriz de correlación
+Se eliminan columnas redundantes
+Se eliminar la columna ID (identificador del estudiante), ya que no aporta información al modelo.
+Separación de variables predictoras y objetivo
+Ejecutar la función separar_X_y() para dividir el DataFrame en: X: Variables predictoras. y: Variable objetivo (RENDIMIENTO_GLOBAL).
+Codificación y estandarización
+Se realiza el ColumnTransformer que incluye: StandardScaler → para variables numéricas. OneHotEncoder → para variables categóricas nominales (E_PRGM_ACADEMICO, E_PRGM_DEPARTAMENTO).
+Se ejecutar el preprocesador y se confirma que las variables se han codificado correctamente.
+Se Guarda la configuración del preprocesamiento
+Usuario de Kaggle: https://www.kaggle.com/jasminjaramillo
+
+Link video: https://www.youtube.com/watch?v=xAtlrqK1gHQ
+
+CRÉDITOS
+
+Proyecto desarrollado como parte de la competencia de aprendizaje automático para la predicción del desempeño en las Pruebas Saber Pro.
