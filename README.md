@@ -196,7 +196,7 @@ bajo, medio-bajo, medio-alto, alto con su correspondiente ID
   Guarda automáticamente el archivo en Google Drive Link: https://drive.google.com/file/d/1KqvzDd3aBgOWKBhnXAjGZkJzdzz70O3x/view?usp=drive_link 
   (Estan indicados los permisos para el grupo de trabajo, para el Profesor Raúl Ramos y para el monitor Jonathan Granda)
 
-Link video: 
+Link video: https://youtu.be/SdHKSeEwq2o 
 
 CRÉDITOS
 
