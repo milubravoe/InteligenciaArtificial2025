@@ -193,8 +193,8 @@ bajo, medio-bajo, medio-alto, alto con su correspondiente ID
 
 7. Generación del archivo submission.csv 
 
-   Guarda automáticamente el archivo en Google Drive 
-   (Estan indicados los permisos para el grupo de trabajo, para el Profesor Raúl Ramos y para el monitor Jonathan Granda)
+  Guarda automáticamente el archivo en Google Drive Link: https://drive.google.com/file/d/1KqvzDd3aBgOWKBhnXAjGZkJzdzz70O3x/view?usp=drive_link 
+  (Estan indicados los permisos para el grupo de trabajo, para el Profesor Raúl Ramos y para el monitor Jonathan Granda)
 
 Link video: 
 
